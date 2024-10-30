@@ -9,6 +9,6 @@ public class Employer implements Person {
     }
     @Override
     public void getInfo(){
-        System.out.println("Name: " + name+ " Surname: " + surname+ " Age: " + age);
+        System.out.println("Name: " + name+ " Surname: " + surname+ "Years to retire: " + (62 - age));
     }
 }
